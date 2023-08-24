@@ -244,6 +244,11 @@ a {
     min-width: 100%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .popular-foods__filters{
+    justify-content: flex-start;
+  }
+}
 /* END: popular media queries */
 
 /* START: subscribe media queries */
@@ -317,3 +322,11 @@ a {
   }
 }
 /* END: trending media queries */
+
+/* START: footer media queries */
+@media screen and (max-width: 550px) {
+  .footer ul {
+    gap: 14px
+  }
+}
+/* END: footer media queries */
