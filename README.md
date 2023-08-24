@@ -3,6 +3,9 @@ Sushiman is a basic, modern, and responsive website with animations!
 
 I used `HTML` and `CSS` to create the site, `AOS` library for the animation, and `Vite` for the local server.
 
+# Demo Link: 🔗 
+You can view it here: [Sushiman-ImBenSantos](https://sushiman-imbensantos.vercel.app/)
+
 # Setup / Installation: 💻
 - Download or clone the repository
 - Run `npm install`
