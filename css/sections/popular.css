@@ -63,8 +63,8 @@
   color: var(--primary-color);
 }
 
-.popular-foods__filter-btn:hover {
-  background: #fff;
+.popular-foods__filter-btn:not(.active):hover {
+  background: rgba(255, 255, 255, 0.75);
   color: var(--primary-color);
 }
 
@@ -116,6 +116,8 @@
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
+
+  cursor: pointer;
 }
 
 .popular-foods__card-image {
@@ -193,5 +195,21 @@
 
 .popular-foods__card.active-card .popular-foods__card-price{
   font-size: 24px;
+  color: var(--secondary-color);
+}
+
+.popular-foods__card:not(.active-card):hover{
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.popular-foods__card:hover .popular-foods__card-title{
+  color: var(--black-500);
+}
+
+.popular-foods__card:hover .popular-foods__card-rating p{
+  color: var(--gray-100)
+}
+
+.popular-foods__card:hover .popular-foods__card-price{
   color: var(--secondary-color);
 }

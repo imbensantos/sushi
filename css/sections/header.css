@@ -52,6 +52,10 @@
   cursor: pointer;
 }
 
+.header__menu li:not(:last-child):hover{
+  border-bottom: 1px solid #000;
+}
+
 .header__menu li img {
   width: 24px;
   height: 24px;

@@ -181,9 +181,7 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-  .header__logo {
-    padding-left: 0;
-  }
+
 }
 /* END: header media queries */
 
@@ -290,7 +288,7 @@ a {
     flex-direction: column;
   }
 
-  .trending-drink {
+  .trending-drinks {
     flex-direction: column-reverse;
   }
 
